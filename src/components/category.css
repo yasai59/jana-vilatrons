@@ -1,0 +1,26 @@
+.category {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.479);
+  font-size: 2rem;
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.tapa {
+  background:rgba(0, 0, 0, 0.519);
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  transition: 0.6s;
+}
+
+.category:hover .tapa{
+  transform: translate(0, -100%);
+}
